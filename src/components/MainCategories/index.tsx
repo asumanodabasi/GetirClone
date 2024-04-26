@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native'
 import CategoryItem from '../CategoryItems'
 import categoriesGetir from '../../../assets/categoriesGetir'
 import { Category } from '../../models'
+
 function index() {
   const [categories, setCategories] = useState<Category[]>(categoriesGetir)
   return (

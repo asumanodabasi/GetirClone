@@ -6,15 +6,15 @@ import { TouchableOpacity } from 'react-native';
 const Tab = createBottomTabNavigator();
 function RootNavigator() {
 
-  const CustomTabBarButton = ({ children }) => {
+  const CustomTabBarButton = () => {
     return (
       <TouchableOpacity
         style={{
           width: 58,
           height: 58,
           backgroundColor: "#5C3EBC",
-          justifyContent: "center",
-          alignItems:"center",
+          justifyContent: 'center',
+          alignItems:'center',
           borderRadius:33,
           marginTop:-8,
           borderWidth:3,
